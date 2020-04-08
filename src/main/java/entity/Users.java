@@ -6,9 +6,12 @@ public class Users {
     private String uname;
 
 
-    public void getId(){}
+    public int getId(){
 
-    public int setId(int id){
+        return  id;
+    }
+
+    public void setId(int id){
         this.id=id;
     }
 
